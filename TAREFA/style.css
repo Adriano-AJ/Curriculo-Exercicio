@@ -79,11 +79,11 @@ nav{
     padding-right: 0px;
 }
 .title{
-    width: 360px;
-    height: 43px;
-    background: #FFFFFF;
+    width: 400px;
+    font-size: 24px;
     padding-left: 40px;
-    display: inline-block;
+    background: #FFFFFF;
+    display: inline;
     float:right;
     text-transform: uppercase;
 }
@@ -139,29 +139,32 @@ picture img{
     justify-content: center;
 }
 .card{
+    padding-top: 20px;
     height: 380px;
-    width: 253px;
+    width: 293px;
     border-radius: 20px;
-    margin: 15px;
     box-shadow: 9px 9px #bfbfbfa2;
     background: rgba(207, 207, 207, 0.4);
 }
 .card_titulo {    
     text-align: center;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 24px;
     line-height: 31px;
-    
-    color: #000000;
+    text-transform: uppercase;
 }
 .card_text{
-    position: absolute;
-    width: 280px;
-    font-family: 'Inter';
+    text-align: justify;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
-    color: #000000;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
